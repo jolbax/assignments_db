@@ -79,8 +79,22 @@ A: VAR, INT, DATE
 ```
 SELECT email, signup FROM users WHERE name='DeAndre Data';
 
+// Output:
+//   email             |      signup
+// --------------------+-----------------
+//   datad@comcast.net |      2008-01-20
+
 SELECT userid FROM users WHERE email='aleesia.algorithm@uw.edu';
+
+// Output
+//   userid
+// ----------
+//     1
 
 SELECT * FROM users WHERE userid=4;
 
+// Output
+// userid | name           | email             | signup
+// -------+----------------+-------------------+--------
+// 4	     | Brandy Boolean | bboolean@nasa.gov | 1999-10-15
 ```

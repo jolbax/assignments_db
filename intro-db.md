@@ -66,9 +66,26 @@ A: VAR, INT, DATE
 
 - Provide a table, listing payments with its dates and respectively amounts
 
+```
+Date           Amount
+5/1/2016       1500.00
+5/10/2016      37.00
+5/15/2016      124.93
+5/23/2016      54.72
+```
+
 - Provide a table, listing the amount of payments that are greater than 500
 
+```
+Amount
+1500.00
+```
 - Provide a table, listing all information available of payments that its payee is "Mega Foods"
+
+```
+Date      Payee          Amount    Memo
+5/15/2016 Mega Foods     124.93    Groceries
+```
 
 > Given this users table, write SQL queries using the following criteria and include the output:
 
